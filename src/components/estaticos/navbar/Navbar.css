@@ -1,0 +1,16 @@
+.cursor {
+    cursor: pointer;
+    color: white
+}
+
+.text-decorator-nome {
+    text-decoration: none;
+}
+
+.bgnav {
+    background-color: #2d97d8;
+}
+
+.textobranco {
+    color: white;
+}
