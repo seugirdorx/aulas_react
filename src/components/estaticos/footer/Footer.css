@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&family=Oswald:wght@300&display=swap');
+
+.footer {
+    width: 100vw; height: 200px;
+    background: rgb(230,128,21);
+    background: linear-gradient(90deg, rgba(230,128,21,1) 0%, rgba(221,20,80,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Nixie One', cursive;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.footer .links {
+    height: 100%; width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer .logo {
+    width: 150px;
+}
+
+/* NOVOS */
+
+.footer .links h3 {
+    margin-bottom: 5px;
+}
+
+.footer .links a {
+    text-decoration: none;
+    color: white;
+}
+.footer .links a:hover {
+    color: rgba(255,255,255,.4);
+}
+
+.footer .contato {
+    height: 100%; width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer img {
+    width: 30px;
+    margin: 5px;
+}

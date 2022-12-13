@@ -1,0 +1,71 @@
+.container {
+    background-color: #9C0E0E;
+    width: 100vw; min-height: 120vh;
+    display: flex; justify-content: center; align-items: center;
+    font-family: 'Nixie One', cursive;
+    font-family: 'Oswald', sans-serif;
+    color: #9C0E0E;
+}
+
+/* Novos */
+
+
+.loginArea {
+    height: 70vh; width: 30vw;
+    border-radius: 15%;
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    background: rgb(221,20,80);
+    background: linear-gradient(0deg, rgba(221,20,80,1) 0%, rgba(230,128,21,1) 100%);
+}
+
+.quadrado {
+    height: 10vh; 
+    width: 20vw;
+    border-radius: 50px;
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    background: rgb(255, 255, 255);
+}
+
+.topo{
+    margin-top: -100px;
+}
+
+.loginArea form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loginArea .input {
+    height: 35px;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+.loginArea .button {
+    height: 30px;
+    width: 100px;
+    border: none;
+    background: #9C0E0E;
+    border-radius: 20px;
+    transition: all ease-in .2s;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.entrarArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entrarArea a {
+    text-decoration: none;
+    color: white;
+}
